@@ -5,7 +5,7 @@ A rule-based tunnel in Go. 此模块为 [clash](https://github.com/Dreamacro/cla
 [English](README.md)
 
 
-## Mod
+## 修改
 
 解决与[Clash for Android](https://github.com/Kr328/ClashForAndroid)的冲突
 
