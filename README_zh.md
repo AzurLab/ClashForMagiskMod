@@ -4,6 +4,14 @@ A rule-based tunnel in Go. 此模块为 [clash](https://github.com/Dreamacro/cla
 
 [English](README.md)
 
+
+## Mod
+
+解决与[Clash for Android](https://github.com/Kr328/ClashForAndroid)的冲突
+
+替换核心为[Clashr](https://github.com/BROBIRD/clash/releases)
+
+
 ## 需求
 
 * arm64 指令集
@@ -22,7 +30,7 @@ A rule-based tunnel in Go. 此模块为 [clash](https://github.com/Dreamacro/cla
 
 ## 配置
 
-数据目录 `{内置存储根目录}/Android/data/com.github.kr328.clash`
+数据目录 `{内置存储根目录}/Android/data/com.github.kr328.clashm`
 
 数据目录包含以下文件
 
@@ -35,7 +43,7 @@ A rule-based tunnel in Go. 此模块为 [clash](https://github.com/Dreamacro/cla
 
 ## 控制
 
-数据目录  `{内置存储根目录}/Android/data/com.github.kr328.clash`
+数据目录  `{内置存储根目录}/Android/data/com.github.kr328.clashm`
 
 在数据目录创建以下文件以控制
 
@@ -63,7 +71,7 @@ A rule-based tunnel in Go. 此模块为 [clash](https://github.com/Dreamacro/cla
 
 ## 自定义代理模式
 
-自定义代理模式路径 `{内置存储目录}/Android/data/com.github.kr328.clash/mode.d` 
+自定义代理模式路径 `{内置存储目录}/Android/data/com.github.kr328.clashm/mode.d` 
 
 1. 创建名称为 **自定义代理模式** 的目录
 
