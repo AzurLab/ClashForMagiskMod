@@ -4,6 +4,7 @@ A rule-based tunnel in Go. This module is wrapper for [clash](https://github.com
 
 [中文说明](README_zh.md)
 
+## Mod
 Solved the conflicts with [Clash for Android](https://github.com/Kr328/ClashForAndroid)
 
 ## Requirements
