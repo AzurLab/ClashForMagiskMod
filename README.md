@@ -7,6 +7,8 @@ A rule-based tunnel in Go. This module is wrapper for [clash](https://github.com
 ## Mod
 Solved the conflicts with [Clash for Android](https://github.com/Kr328/ClashForAndroid)
 
+Replace the Clash core with[Clashr](https://github.com/BROBIRD/clash/releases)
+
 ## Requirements
 
 * arm64 ABI
@@ -36,7 +38,7 @@ In data directory
 
 ## Control
 
-Data Path  `{InternalStorage}/Android/data/com.github.kr328.clash`
+Data Path  `{InternalStorage}/Android/data/com.github.kr328.clashm`
 
 Create the following file to control clash
 
@@ -64,7 +66,7 @@ Create the following file to control clash
 
 ## Custom Proxy Mode
 
-Custom Mode Directory `{InternalStorage}/Android/data/com.github.kr328.clash/mode.d` 
+Custom Mode Directory `{InternalStorage}/Android/data/com.github.kr328.clashm/mode.d` 
 
 1. Create directory with mode name
 
