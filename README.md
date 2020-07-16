@@ -1,8 +1,10 @@
-# Clash for Magisk
+# Clash for Magisk Mod
 
 A rule-based tunnel in Go. This module is wrapper for [clash](https://github.com/Dreamacro/clash) 
 
 [中文说明](README_zh.md)
+
+Solved the conflicts with [Clash for Android](https://github.com/Kr328/ClashForAndroid)
 
 ## Requirements
 
