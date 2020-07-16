@@ -23,7 +23,7 @@ See also https://github.com/Dreamacro/clash
 
 ## Configure
 
-Data Path  `{InternalStorage}/Android/data/com.github.kr328.clash`
+Data Path  `{InternalStorage}/Android/data/com.github.kr328.clashm`
 
 In data directory
 
