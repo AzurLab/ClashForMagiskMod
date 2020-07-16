@@ -1,4 +1,4 @@
-# Clash for Magisk Mod
+# Clash for Magisk
 
 A rule-based tunnel in Go. This module is wrapper for [clash](https://github.com/Dreamacro/clash) 
 
