@@ -7,7 +7,9 @@ A rule-based tunnel in Go. This module is wrapper for [clash](https://github.com
 ## Mod
 Solved the conflicts with [Clash for Android](https://github.com/Kr328/ClashForAndroid)
 
-Replace the Clash core with [Clashr](https://github.com/BROBIRD/clash/releases)
+~~Replace the Clash core with [Clashr](https://github.com/BROBIRD/clash/releases)~~
+
+Update Clash Core, support ssr
 
 ## Requirements
 
