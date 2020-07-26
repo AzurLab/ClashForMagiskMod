@@ -9,7 +9,9 @@ A rule-based tunnel in Go. 此模块为 [clash](https://github.com/Dreamacro/cla
 
 解决与[Clash for Android](https://github.com/Kr328/ClashForAndroid)的冲突
 
-替换核心为[Clashr](https://github.com/BROBIRD/clash/releases)
+~~替换核心为[Clashr](https://github.com/BROBIRD/clash/releases)~~
+
+升级 Clash 核心
 
 
 ## 需求
