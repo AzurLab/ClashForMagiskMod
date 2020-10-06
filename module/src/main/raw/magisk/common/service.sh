@@ -11,7 +11,7 @@ ROOT="/dev/clash_root"
 CORE_INTERNAL_DIR="$MODDIR/core"
 
 CORE_DIR="$ROOT/core"
-DATA_DIR="/sdcard/Android/data/com.github.kr328.clashm"
+DATA_DIR="/sdcard/Documents/CFM"
 
 mkdir -p "$ROOT"
 mkdir -p "$CORE_DIR"
