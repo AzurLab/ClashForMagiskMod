@@ -23,7 +23,7 @@ do
     if [ "$va" = "0" ];
     then
       va="1"
-      group=$line
+      group=$(echo $line |tr -d '\n' |od -An -tx1|tr ' ' %)
     else
       va="0"
       selector=$line
