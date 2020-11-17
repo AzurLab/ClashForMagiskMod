@@ -14,6 +14,24 @@
 # - PROXY_BLACKLIST_UID: blacklist uid
 #
 
+selector_file="/storage/emulated/0/Android/data/com.github.kr328.clashm/selector.txt"
+
+selector_restore() {
+va="0"
+while read line
+do
+    if [ "$va" = "0" ];
+    then
+      va="1"
+      group=$line
+    else
+      va="0"
+      selector=$line
+      curl -v -X PUT -d "{${selector}}" "127.0.0.1:9090/proxies/${group}"
+    fi
+done < ${selector_file}
+}
+
 assert() {
     "$@"
     if [[ $? != 0 ]];then
@@ -87,3 +105,6 @@ assert iptables -t nat -A CLASH_DNS_EXTERNAL -p udp -j REDIRECT --to-ports ${CLA
 
 assert iptables -t nat -I OUTPUT -p udp -j CLASH_DNS_LOCAL
 assert iptables -t nat -I PREROUTING -p udp -j CLASH_DNS_EXTERNAL
+
+selector_restore
+
