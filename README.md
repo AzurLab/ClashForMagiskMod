@@ -11,6 +11,8 @@ A rule-based tunnel in Go. This module is wrapper for [clash](https://github.com
 
 - Update Clash Core, support ssr
 
+- Restore selectors after clash started automatically, however, need a extra file `selector.txt` to preserve the information and need preserved manually.
+
 ## Requirements
 
 * arm64 ABI
